@@ -61,12 +61,13 @@ GET /products/filter?minPrice=<min>&maxPrice=<max>&brand=<brand>
 Ensure to set up your Firebase credentials in a `.env` file.
 
 ```bash
-FIREBASE_API_KEY=your_firebase_api_key
-FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-FIREBASE_PROJECT_ID=your_firebase_project_id
-FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-FIREBASE_APP_ID=your_firebase_app_id
+apiKey=your_firebase_api_key
+authDomain=your_firebase_auth_domain
+projectId=your_firebase_project_id
+storageBucket=your_firebase_storage_bucket
+messagingSenderId=your_firebase_messaging_sender_id
+appId=your_firebase_app_id
+measurementId=your_firebase_measurement_id
 ```
 
 ## 📝 License
